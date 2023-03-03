@@ -72,12 +72,26 @@
     <sub-class-of type="text/plain"/>
     <glob weight="10" pattern="Pkgfile"/>
   </mime-type>
-    <mime-type type="text/x-fasta">
+  <mime-type type="text/x-fasta">
     <sub-class-of type="text/plain"/>
     <comment>FASTA file</comment>
     <glob pattern="*.fasta"/>
     <glob pattern="*.fa"/>
     <glob pattern="*.fas"/>
     <glob pattern="*.fst"/>
+  </mime-type>
+  <mime-type type="application/x-h5ad">
+    <comment>H5 Data File</comment>
+    <glob pattern="*.h5ad"/>
+  </mime-type>
+  <mime-type type="application/x-seurat">
+    <comment>Seurat Object</comment>
+    <glob pattern="*.seu"/>
+    <glob pattern="*.seurat"/>
+  </mime-type>
+  <mime-type type="application/x-vmlinuz">
+    <comment>Seurat Object</comment>
+    <glob pattern="vmlinuz"/>
+    <glob pattern="vmlinuz-*"/>
   </mime-type>
 </mime-info>
